@@ -1,0 +1,540 @@
+@charset "utf-8";
+
+
+
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 10%;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 75px;
+    margin-top: 0px;
+}
+
+img {
+    margin-left: 130px;
+    width: 120px;
+}
+
+.king {
+    margin-left: 360px;
+    margin-top: 25px;
+    z-index: 60;
+}
+
+/* BOXE COMEÇO */
+
+.boxe {
+    display: flex;
+}
+
+.fer {
+    margin-top: -70px;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 125px;
+}
+
+.textb {
+    padding: 50px;
+    color: #fffdfd;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 30px;
+    margin-inline: -195px;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: -200px;
+    margin-top: 75px;
+}
+
+.hb {
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 75px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    width: 375px;
+}
+
+/* BOXE FIM */
+
+/* JUDÔ COMEÇO */
+
+.judo {
+    display: flex;
+}
+
+.bea {
+    margin-bottom: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 665px;
+}
+
+.hj {
+    padding: 2px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.textj {
+    padding: 50px;
+    color: #ffffff;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 30px;
+    margin-inline: -195px;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-left: -150px;
+}
+
+/* JUDÔ FIM */
+
+/* KARATÊ COMEÇO */
+
+.karate {
+    display: flex;
+}
+
+.bar {
+    margin-bottom: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 7%;
+}
+
+.hk {
+    padding: 2px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: 145px;
+    width: 375px;
+}
+
+.textk {
+    padding: 50px;
+    color: #ffffff;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 30px;
+    margin-inline: -195px;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: -125px;
+    margin-top: 75px;
+}
+
+/* KARATÊ FIM */
+
+/* TAEKWONDO COMEÇO */
+
+.taek {
+    display: flex;
+}
+
+.edi {
+    margin-bottom: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 650px;
+}
+
+.ht {
+    padding: 2px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.textt {
+    padding: 50px;
+    color: #ffffff;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 30px;
+    margin-inline: -195px;
+    background-color: #000000a4;
+    border-radius: 10px;
+    margin-left: -135px;
+    margin-top: 70px;
+}
+
+/* TAEKWONDO FIM */
+
+.tracking-in-contract-bck-bottom {
+    -webkit-animation: tracking-in-contract-bck-bottom 2.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 2.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+section.modulo.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(0, 85, 255);
+    z-index: 50;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(251, 0, 0, 0) 40%, #000 100%);
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background: #00000080;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 30px;
+    animation: surgir 3s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 40%;
+}
+
+section.modulo p {
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+section.modulo.content {
+    padding: 40px 0;
+    background: #67694780
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.modulo.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(0, 85, 255);
+    z-index: 50;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(254, 0, 0, 0) 0, rgba(251, 0, 0, 0) 40%, #000 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+section.modulo.parallax-1 {
+    background-image: url(https://girabetim.com.br/wp-content/uploads/2024/02/ts2marcin_27863_realistic_photo_of_Paris_2024_Olympics_medals_u_cb67a50d-3cd4-4e25-8ba8-d9d519cc5b62.png);
+}
+
+section.modulo.parallax-2 {
+    background-image: url(FOTOS/fundoBoxe.png);
+}
+
+section.modulo.parallax-3 {
+    background-image: url(FOTOS/fundoJudo.png);
+}
+
+section.modulo.parallax-4 {
+    background-image: url(FOTOS/fundoKarate.png);
+}
+
+section.modulo.parallax-5 {
+    background-image: url(FOTOS/fundoTaek.png);
+}
+
+@keyframes surgir {
+    from {
+        translate: -100vw 0;
+        color: hsl(240, 100%, 50%);
+        opacity: 0;
+    }
+
+
+    to {
+        translate: 0 0;
+        color: darkred;
+        opacity: 1;
+    }
+
+}
+
+@media all and (max-width: 760px) {
+
+    section.modulo p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    section.modulo.parallax h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 70px;
+        text-transform: uppercase;
+        text-shadow: 7px 7px 7px #000000;
+        z-index: 50;
+    }
+
+    section.modulo.content {
+        width: 90%;
+    }
+
+}
+
+
+
+footer {
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+.btn-boxe {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-left: -155px;
+}
+
+.btn-judo {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-left: 350px;
+}
+
+.btn-karate {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-left: -120px;
+}
+
+.btn-taekwondo {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-left: 330px;
+}
+
+.btn::after,
+.btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+
+}
+
+.btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+    color: var(--color2);
+}
+
+.btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
